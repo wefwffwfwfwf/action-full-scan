@@ -26,4 +26,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'http://king-air.co.kr/'
           rules_file_name: '.zap/rules.tsv'
-          cmd_options: '-a'
+          cmd_options: '-a  -d'
